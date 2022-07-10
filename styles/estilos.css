@@ -1,0 +1,95 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url("./../assets/Multicolor.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  width: 100%;
+  height: auto;
+}
+
+.btn-primary {
+  background-color: #9649e5;
+  border-radius: 5px;
+  padding: 5px;
+  width: 150px;
+  color: #f6f4f4;
+  border: 1px solid #9649e5;
+  transition: all 1s;
+}
+.btn-primary:hover {
+  transform: scale(1.1);
+  justify-content: center;
+}
+
+#Logo {
+  width: 150px;
+}
+
+footer {
+  background-color: #d9d9d9;
+  position: fixed;
+  height: 50px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+footer nav {
+  align-items: center;
+  float: right;
+}
+footer nav li {
+  display: inline-block;
+  list-style: none;
+  align-items: center;
+}
+footer nav li a {
+  text-decoration: none;
+  color: black;
+  padding-right: 2em;
+}
+
+.imagenPrincipal {
+  width: 96%;
+  justify-content: center;
+  padding-left: 3%;
+}
+
+.card {
+  background-color: #f6f4f4;
+  border-color: #f6f4f4;
+  border-radius: 0;
+  justify-content: center;
+  margin-top: 2%;
+  margin-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.card .imagenAbout {
+  width: 90%;
+}
+
+.form {
+  background-color: #f6f4f4;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.form label {
+  padding-top: 1em;
+}
+
+/*# sourceMappingURL=estilos.css.map */

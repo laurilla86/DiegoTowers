@@ -3,8 +3,8 @@
     padding: 0px;
     box-sizing: border-box;
 }
-/* TODAS LAS PAGES */
-body {
+//* * TODAS LAS PAGES */
+/* body {
     display: flex;
     flex-direction: column;
     background-image:url("./../assets/Multicolor.jpg");
@@ -14,8 +14,9 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     width: 100%;
-    height: auto;
-}
+    height: auto; */
+} */ 
+/* pasado*/
 
 footer a,
 header a {
@@ -31,9 +32,9 @@ header a {
     width: 100%;
 }
 
-#Logo {
+/* #Logo {
     width: 150px;
-}
+} */
 
 /* .navbar {
     display: flex;
@@ -59,14 +60,15 @@ header a {
     border-radius: 5px;
 }
 
-.footer{
+/* .footer{
     background-color: #d9d9d9;
     position: fixed;
     height: 50px;
     left: 0;
     bottom: 0;
-    right: 0;
+    right: 0; */
 }
+/* YA PASADO */
 /* PAGE INICIO */
 
 .content {
@@ -136,7 +138,7 @@ header a {
 }
 
 /* PAGE CONTACTO */
-.grilla {
+/* .grilla {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(6, 1fr);
@@ -146,7 +148,7 @@ header a {
         ". . form form form . ."
         ". . form form form . ."
         ". . form form form . ."
-}
+} */
 
 .contentForm {
     background-color: #f6f4f4;
@@ -229,7 +231,7 @@ header a {
     width: 100%;
 }
 
-.button {
+./* button {
     background-image: linear-gradient(to right, #9649e5, #d9d9d9);
     border-radius: 5px;
     padding: 5px;
@@ -241,4 +243,5 @@ header a {
 
 .button:hover {
     transform: scale(1.1);
-}
+} */
+/* YA LO PASÉ */
