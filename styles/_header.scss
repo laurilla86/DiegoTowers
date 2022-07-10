@@ -2,3 +2,14 @@
     width: 150px;
 }
 
+.nav-item {
+
+    .nav-link {
+        
+        &:active {
+            color: $colorPrincipal;
+            font-weight: 600;
+            text-decoration: underline;
+        }
+    }
+}

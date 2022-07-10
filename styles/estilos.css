@@ -54,7 +54,7 @@ footer nav li {
 }
 footer nav li a {
   text-decoration: none;
-  color: black;
+  color: rgba(0, 0, 0, 0.562);
   padding-right: 2em;
 }
 
@@ -62,6 +62,14 @@ footer nav li a {
   width: 96%;
   justify-content: center;
   padding-left: 3%;
+}
+
+.imagenLogo {
+  width: 50%;
+}
+
+.card-link {
+  color: #9649e5;
 }
 
 .card {
@@ -90,6 +98,4 @@ footer nav li a {
 }
 .form label {
   padding-top: 1em;
-}
-
-/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=estilos.css.map */

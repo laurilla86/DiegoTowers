@@ -1,0 +1,44 @@
+/* media query tablet */
+@media screen and (max-width: 760px) {
+    .content {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .tarjetaPadre {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .header,
+    .footer {
+        flex-direction: column;
+    }
+}
+
+/* media quuery mobile */
+
+@media screen and (max-width: 365px) {
+    .content {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .tarjetaPadre {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .header,
+    .footer {
+        flex-direction: column;
+    }
+}
+/* media query desktop */
+
+@media screen and (min-width:761px) {
+    .tarjetaPadre {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
